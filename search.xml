@@ -8,7 +8,7 @@
       <link href="/2021/09/12/MarkDown%E5%9F%BA%E7%A1%80%E5%86%99%E6%B3%95/"/>
       <url>/2021/09/12/MarkDown%E5%9F%BA%E7%A1%80%E5%86%99%E6%B3%95/</url>
       
-        <content type="html"><![CDATA[<h2 id="MarkDown添加图片的方式"><a href="#MarkDown添加图片的方式" class="headerlink" title="MarkDown添加图片的方式"></a>MarkDown添加图片的方式</h2><ol><li><img src="%E5%9B%BE%E7%89%87%E9%93%BE%E6%8E%A5%22%22" alt="Alt text"></li></ol><ul><li>Alt text:图片的alt标签，用来描述图片的关键词；</li><li>图片链接：可以是图片的本地地址或网址；</li></ul><ol start="2"><li>用base64转码工具把图片转成一段字符串，然后把字符串填到基础格式中链接的那个位置；</li></ol>]]></content>
+        <content type="html"><![CDATA[<h2 id="MarkDown添加图片的方式"><a href="#MarkDown添加图片的方式" class="headerlink" title="MarkDown添加图片的方式"></a>MarkDown添加图片的方式</h2><ol><li><img src="%E5%9B%BE%E7%89%87%E9%93%BE%E6%8E%A5" alt="Alt text"></li></ol><ul><li>Alt text:图片的alt标签，用来描述图片的关键词；</li><li>图片链接：可以是图片的本地地址或网址；</li></ul><ol start="2"><li>用base64转码工具把图片转成一段字符串，然后把字符串填到基础格式中链接的那个位置；</li></ol>]]></content>
       
       
       
