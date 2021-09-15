@@ -38,6 +38,12 @@
       
       
       
+        <tags>
+            
+            <tag> Git版本管理工具 </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -76,6 +82,12 @@
         <content type="html"><![CDATA[<h2 id="OSI七层模型"><a href="#OSI七层模型" class="headerlink" title="OSI七层模型"></a>OSI七层模型</h2><p>应用层<br>表示层<br>会话层<br>传输层<br>网络层<br>数据链路层<br>物理层</p><span id="more"></span><h2 id="http和https的区别"><a href="#http和https的区别" class="headerlink" title="http和https的区别"></a>http和https的区别</h2><p>应用层协议<br><strong>超文本传输协议</strong>：用于服务器传输超文本到本地浏览器的传输协议；</p><p>（1）HTTPS需要申请CA证书或自制证书；</p><p>（2） HTTP是明文传输；HTTPS具有安全性的SSL加密；</p><p>（3）端口号不一致，HTTP是80端口；HTTPS是443;</p><h2 id="HTTP请求方式，GET和POST的区别"><a href="#HTTP请求方式，GET和POST的区别" class="headerlink" title="HTTP请求方式，GET和POST的区别"></a>HTTP请求方式，GET和POST的区别</h2><p> 本质上都是<strong>TCP连接</strong>，但由于HTTP的规定和浏览器/服务器的限制，导致它们在应用中的不同；<br> （从技术层面上讲，GET可加上request body，但不保证能被接受，POST同理，可带上URL参数</p><p>（1）GET请求参数放在URL中；POST请求参数放在request body上；</p><p>（2）对于参数类型，GET只接受ASCII字符；POST没有限制；</p><p>（3）GET没有POST安全，因为参数直接暴露在URL；</p><p>（4）GET请求可缓存，用于请求数据；POST请求不会被缓存，可创建或更新数据；</p><h2 id="对称加密和非对称加密的区别"><a href="#对称加密和非对称加密的区别" class="headerlink" title="对称加密和非对称加密的区别"></a>对称加密和非对称加密的区别</h2><h2 id="http缓存机制-浏览器缓存机制"><a href="#http缓存机制-浏览器缓存机制" class="headerlink" title="http缓存机制(浏览器缓存机制)"></a>http缓存机制(浏览器缓存机制)</h2><ol><li><p>强缓存</p></li><li><p>协商缓存</p></li></ol><h2 id="http状态码"><a href="#http状态码" class="headerlink" title="http状态码"></a>http状态码</h2><h2 id="HTTP请求和响应头部有哪些信息？"><a href="#HTTP请求和响应头部有哪些信息？" class="headerlink" title="HTTP请求和响应头部有哪些信息？"></a>HTTP请求和响应头部有哪些信息？</h2><p><code>请求头：</code></p><ul><li>Accept: 浏览器能够处理的内容类型；</li><li>Accept-Charset: 浏览器能够显示的字符集；</li><li>Accept-Encoding: </li><li>Accept-Language:</li><li>Connection: 连接的类型，例如：keep-alive</li><li>Cookie:</li><li>Host: 发出请求的页面所在域</li><li>Referer：发出请求的页面的URL</li></ul><p><code>响应头：</code></p><ul><li>Cache-Control: 控制HTTP缓存</li></ul><h2 id="TCP和UDP的区别"><a href="#TCP和UDP的区别" class="headerlink" title="TCP和UDP的区别"></a>TCP和UDP的区别</h2><p>传输层协议</p><ol><li>区别：</li></ol><p>（1）TCP面向连接；UDP无连接；</p><p>（2）TCP面向字节流；UDP面向报文；</p><p>（3）TCP首部为20字节；UDP首部为8字节；</p><p>（4）TCP提供可靠的传输服务，传输的数据无差错，不丢失，不重复，且按序到达;UDP尽最大努力交付；</p><ol start="2"><li>应用场景：</li></ol><ul><li>传输控制协议TCP：用于HTTP、HTTPS、FTP等传输协议，POP、SMTP邮件协议；</li><li>用户数据报协议UDP：用于语音、视频等；</li></ul><h2 id="TCP三次握手和四次挥手的过程"><a href="#TCP三次握手和四次挥手的过程" class="headerlink" title="TCP三次握手和四次挥手的过程"></a>TCP三次握手和四次挥手的过程</h2><h2 id="sessionStorage、localStorage和cookie的区别，以及操作api"><a href="#sessionStorage、localStorage和cookie的区别，以及操作api" class="headerlink" title="sessionStorage、localStorage和cookie的区别，以及操作api"></a>sessionStorage、localStorage和cookie的区别，以及操作api</h2><h2 id="cookie、session和token的区别"><a href="#cookie、session和token的区别" class="headerlink" title="cookie、session和token的区别"></a>cookie、session和token的区别</h2><h2 id="进程和线程"><a href="#进程和线程" class="headerlink" title="进程和线程"></a>进程和线程</h2><h2 id="进程调度策略"><a href="#进程调度策略" class="headerlink" title="进程调度策略"></a>进程调度策略</h2><h2 id="死锁"><a href="#死锁" class="headerlink" title="死锁"></a>死锁</h2><h2 id="I-O多路复用"><a href="#I-O多路复用" class="headerlink" title="I/O多路复用"></a>I/O多路复用</h2>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 计算机网络 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -121,6 +133,12 @@
         <content type="html"><![CDATA[<h2 id="CSS3新增属性的用法："><a href="#CSS3新增属性的用法：" class="headerlink" title="CSS3新增属性的用法："></a>CSS3新增属性的用法：</h2><ol><li>box-shadow：阴影效果</li><li>box-sizing：控制盒模型的组成模式</li><li>border-image：图片边框</li><li>border-radius：圆角边框</li><li>text-shadow：文本阴影</li><li>text-overflow：文本截断</li><li>word-wrap：自动换行</li><li>opacity:透明度</li><li>resize：元素缩放</li><li>outline：外边框</li><li>hsl：通过色调、饱和度、亮度来指定颜色颜色值</li><li>hsla：在hsl的基础上增加透明度设置</li><li>rgba：基于rgb设置颜色，a设置透明度</li></ol><span id="more"></span><h2 id="transition和animation的区别"><a href="#transition和animation的区别" class="headerlink" title="transition和animation的区别"></a>transition和animation的区别</h2><ol><li>transition是过渡，只有开始和结束；animation结合keyframe(关键帧)可以设置中间帧；</li><li>transition需要通过hover事件或js事件配合触发；animation配合@keyframe，不需要触发事件；</li><li>transition只能触发一次；animation可以设置循环次数；</li></ol><h2 id="隐藏设置："><a href="#隐藏设置：" class="headerlink" title="隐藏设置："></a>隐藏设置：</h2><h3 id="display-none和visiblity-hidden以及opacity-0的区别："><a href="#display-none和visiblity-hidden以及opacity-0的区别：" class="headerlink" title="display:none和visiblity:hidden以及opacity:0的区别："></a>display:none和visiblity:hidden以及opacity:0的区别：</h3><ul><li>display:none</li></ul><ol><li>不占用空间</li><li>设置transition属性无效</li></ol><ul><li>visiblity:hidden</li></ul><ol><li>元素会隐藏，但依然占据空间；</li><li>不会触发绑定的事件；</li></ol><ul><li>opacity:0</li></ul><ol><li>透明度为0，依然占据空间；</li><li>可以触发绑定的事件；</li><li>可以使用transition属性；</li></ol><h2 id="实现水平垂直居中的方法"><a href="#实现水平垂直居中的方法" class="headerlink" title="实现水平垂直居中的方法"></a>实现水平垂直居中的方法</h2><h2 id="BFC块级格式化上下文：独立的渲染空间，不受外部布局的影响"><a href="#BFC块级格式化上下文：独立的渲染空间，不受外部布局的影响" class="headerlink" title="BFC块级格式化上下文：独立的渲染空间，不受外部布局的影响"></a>BFC块级格式化上下文：独立的渲染空间，不受外部布局的影响</h2><ol><li>CSS2.1规定<strong>BFC的条件</strong>至少满足以下一条：</li></ol><ul><li>float值不为none;</li><li>overflow不为visible，可取（hidden,scroll,hidden）</li><li>display值为inline-block，table-cell，table-caption，flex，inline-flex；</li><li>position的值为absolute或fixed;</li></ul><ol start="2"><li><strong>BFC的特点</strong>：</li></ol><ul><li>在同一个BFC区域，其内部盒子总是垂直排列，左对齐；</li></ul><ol start="3"><li><strong>BFC的应用场景</strong>：</li></ol><ul><li>用于解决margin重叠问题；</li><li>用于两栏布局，BFC不会和浮动盒子float叠加；</li><li>用于解决<code>父元素塌陷</code>，清除浮动元素，计算BFC高度时，浮动元素会参与计算；<br><code>父元素塌陷</code>：父元素高度一般由子元素撑开，当子元素float后，父元素高度为0；</li></ul><h2 id="flex（弹性布局）"><a href="#flex（弹性布局）" class="headerlink" title="flex（弹性布局）"></a>flex（弹性布局）</h2><p>display:flex<br>容器属性：<br>flex-direction:<br>flex-wrap:<br>flex-flow:<br>justify-content:<br>align-items:</p><p>项目属性：<br>order:越小越靠前<br>flex-grow:当有剩余空间时是否放大  0（不放大）<br>flex-shrink:当空间不足时是否缩小  1（缩小）<br>flex-basis:设置项目宽度</p><p>flex: 0 1 auto(默认值)<br>flex:auto ====》 flex: 1 1 auto<br>flex:none ====&gt;  flex: 0 0 auto</p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> CSS </tag>
+            
+        </tags>
       
     </entry>
     
